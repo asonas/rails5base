@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '>= 5.0.0.beta1', '< 5.1'
+gem 'rails', '~> 5.0.0.beta1.1'
 gem 'coffee-rails'
 gem 'jbuilder'
 gem 'sass-rails'
@@ -31,3 +31,5 @@ group :test do
   gem 'guard-rspec'
   gem 'rspec-rails', group: :development
 end
+
+gem 'rails-html-sanitizer', '~> 1.0.3'
