@@ -10,7 +10,7 @@ gem 'pg'
 gem 'puma'
 
 source 'https://rails-assets.org' do
-  gem 'rails-assets-bootstrap'
+  gem 'rails-assets-bootstrap', "~> 4.0.0.alpha.2"
   gem 'rails-assets-jquery'
   gem 'rails-assets-jquery-ujs'
 end
