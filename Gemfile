@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.0.0.beta1.1'
+gem 'rails', '~> 5.0.0.beta2'
 gem 'coffee-rails'
 gem 'jbuilder'
-gem 'rails-html-sanitizer', '~> 1.0.3'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'slim-rails'
