@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: rails5base_production
+  database: rails5base
   username:
   password: <%= ENV['_DATABASE_PASSWORD'] %>
