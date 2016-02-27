@@ -109,7 +109,7 @@ GEM
     pry-byebug (3.3.0)
       byebug (~> 8.0)
       pry (~> 0.10)
-    puma (3.0.1)
+    puma (3.0.2)
     rack (2.0.0.alpha)
       json
     rack-test (0.6.3)
@@ -187,7 +187,7 @@ GEM
       railties (>= 3.1, < 5.0)
       slim (~> 3.0)
     slop (3.6.0)
-    spring (1.6.3)
+    spring (1.6.4)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
