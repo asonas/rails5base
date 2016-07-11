@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0'
 gem 'coffee-rails'
 gem 'jbuilder'
+gem 'jquery-rails'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'slim-rails'
@@ -11,8 +12,6 @@ gem 'puma'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap', "~> 4.0.0.alpha.2"
-  gem 'rails-assets-jquery'
-  gem 'rails-assets-jquery-ujs'
 end
 
 group :development do
