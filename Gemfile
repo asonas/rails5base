@@ -31,3 +31,4 @@ group :test do
   gem 'guard-rspec'
   gem 'rspec-rails', group: :development
 end
+gem 'nokogiri', '>= 1.7.2'
