@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.1.0'
+gem 'rails', '~> 5.1.6.1'
 gem 'coffee-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
@@ -31,4 +31,6 @@ group :test do
   gem 'guard-rspec'
   gem 'rspec-rails', group: :development
 end
-gem 'nokogiri', '>= 1.7.2'
+gem 'nokogiri', '>= 1.8.5'
+gem 'ffi', '>= 1.9.24'
+gem 'loofah', '>= 2.2.3'
